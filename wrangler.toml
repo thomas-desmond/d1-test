@@ -10,6 +10,12 @@ compatibility_flags = ["nodejs_compat"]
 [observability]
 enabled = true
 
+
+[[d1_databases]]
+binding = "DB"
+database_name = "d1-test"
+database_id = "310439bc-040c-4643-897a-aa8336ff4cca"
+
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Worker, running it closer to your back-end infrastructure
 # rather than the end user may result in better performance.
